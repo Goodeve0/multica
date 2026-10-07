@@ -1,4 +1,4 @@
--- Restore the pre-564 whitelist (including codearts from migration 441).
+-- Restore the pre-565 whitelist (including codearts from migration 441).
 -- Existing ZCode rows remain valid because the replacement constraint is
 -- NOT VALID, but new ZCode profiles are blocked.
 ALTER TABLE runtime_profile DROP CONSTRAINT IF EXISTS runtime_profile_protocol_family_check;
